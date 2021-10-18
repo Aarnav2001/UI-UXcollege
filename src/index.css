@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Arvo';
+    src: local('Arvo'), url(./fonts/Arvo/Arvo-Regular.ttf) format('ttf');
+  }
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(./fonts/Oswald/Oswald-Bold.ttf) format('ttf');
+}
+
+@tailwind utilities;
